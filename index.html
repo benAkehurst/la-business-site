@@ -8,6 +8,11 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script
+      src="./assets/components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -53,24 +58,28 @@
               template designed by <a href="http://html5up.net">HTML5 UP</a>.
             </h1>
             <p>
-              Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod
-              sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus
-              quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam.
-              Lorem ipsum dolor sit amet nullam dolore.
+              I am an outgoing and enthusiastic Graphic Designer based in North
+              London.
+            </p>
+            <p>
+              My toolkit consists of the Adobe Creative Suite especially
+              proficient in Photoshop, Illustrator and InDesign
             </p>
           </header>
           <section class="tiles">
             <article class="style1">
               <span class="image">
-                <img src="images/pic01.jpg" alt="" />
+                <img
+                  src="./images/inhousecover.jpg"
+                  alt="in house projects cover"
+                  width="360px"
+                  height="333px"
+                />
               </span>
               <a href="/pages/printwork.html">
                 <h2>In-House Print Work</h2>
                 <div class="content">
-                  <p>
-                    Sed nisl arcu euismod sit amet nisi lorem etiam dolor
-                    veroeros et feugiat.
-                  </p>
+                  <p>A collection of projects from my time at Jewish Care</p>
                 </div>
               </a>
             </article>
@@ -191,78 +200,7 @@
       </div>
 
       <!-- Footer -->
-      <footer id="footer">
-        <div class="inner">
-          <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="#">
-              <div class="fields">
-                <div class="field half">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div class="field half">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="field">
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-              </div>
-              <ul class="actions">
-                <li><input type="submit" value="Send" class="primary" /></li>
-              </ul>
-            </form>
-          </section>
-          <section>
-            <h2>Follow</h2>
-            <ul class="icons">
-              <li>
-                <a href="#" class="icon brands style2 fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-dribbble"
-                  ><span class="label">Dribbble</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-500px"
-                  ><span class="label">500px</span></a
-                >
-              </li>
-            </ul>
-          </section>
-          <ul class="copyright">
-            <li>
-              &copy; Lauren Akehurst. All rights reserved
-              <span id="currentYear"></span>
-            </li>
-            <li>
-              Site produced by:
-              <a
-                href="https://github.com/benAkehurst"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Ben Akehurst</a
-              >
-            </li>
-          </ul>
-        </div>
-      </footer>
+      <footer-component></footer-component>
     </div>
 
     <!-- Scripts -->
